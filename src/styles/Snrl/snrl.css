@@ -1,0 +1,139 @@
+/* Color Palette */
+/* Oxford  Blue: #0b132b */
+/* Space Cadet: #1c2541 */
+/* Independence: #3a506b */
+/* Blue Green: #5bc0be */
+/* White: #ffffff */
+
+.rl-main-container {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* Header section  */
+
+.rl-logo {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-family: var(--font-noto-serif);
+}
+
+.rl-icon {
+  color: #ffffff;
+  font-size: 70px;
+  background-color: #5bc0be;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.rl-icon-text {
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-family: var(--font-primary);
+  display: block;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 7px;
+  margin-bottom: 10px;
+}
+
+.rl-logo .rl-logo-normal {
+  font-weight: 700;
+}
+
+.rl-logo-ital {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.rl-subtext {
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Body section */
+
+.rl-landing {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.rl-form-grid {
+  background-color: #e0e0e0;
+  width: 850px;
+  display: grid;
+  grid-template-columns: 30% 60% 10%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.rl-grid-item {
+  background-color: #ffffff;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+/* Forms */
+
+.rl-form-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  padding-top: 12px;
+  border-radius: 5px;
+  border: 0px;
+  font-family: var(--font-primary);
+  font-weight: 200;
+  font-size: 17px;
+}
+
+::placeholder {
+  font-family: var(--font-primary);
+  font-weight: 200;
+  font-size: 17px;
+}
+
+.rl-btn-block {
+  background-color: #5bc0be;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  border-radius: 5px;
+  padding: 13px;
+}
+
+.rl-btn-block:hover {
+  cursor: pointer;
+}
+
+.rl-form-input:focus{
+  outline: none;
+}
+
+/* More Info */
+
+.rl-moreinfo {
+  background-color: #5bc0be;
+  width: 100%;
+  min-height: 300px;
+  margin-top: 150px;
+  padding-top: 100px;
+}
+
+.rl-moreinfo-title {
+  font-size: 40px;
+  color: #ffffff;
+  font-family: var(--font-noto-serif);
+}

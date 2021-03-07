@@ -1,6 +1,7 @@
 :root {
   --font-special: 'Sacramento', cursive; 
   --font-primary: 'Fira Sans', sans-serif; 
+  --font-noto-serif: 'Noto Serif', serif;
 }
 
 body {
